@@ -11,7 +11,7 @@ pages 폴더에 페이지 별로 svelte 파일을 만들고
 </pre>
 
 - 배포: netlify
-  <https://64970622dd20976bc7da6530--lucky-puppy-169599.netlify.app>
+  <https://chosangho.netlify.app>
 - TMDB movie api 사용
   <https://www.themoviedb.org/?language=ko>
 
