@@ -26,7 +26,6 @@
 </script>
 
 <Header />
-<!-- <svelte:component this={page} {params} /> -->
 
 {#if page === Home}
   <Home />

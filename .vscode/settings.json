@@ -1,3 +1,4 @@
 {
-  "svelte.plugin.typescript.enable": false
+  "svelte.plugin.typescript.enable": false,
+  "liveServer.settings.port": 5502
 }

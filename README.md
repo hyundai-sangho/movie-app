@@ -7,7 +7,11 @@ pages 폴더에 페이지 별로 svelte 파일을 만들고
 
 스벨트 파일 하나에 HTML, CSS, JS가 하나에 뭉쳐서 있어서
 바로 바로 필요한 부분을 수정할 수 있는 점이 매우 좋음.
+
 </pre>
 
-![자격증](/screenshot/certificate.jpg)
-![플레이 화면](/screenshot/screen.gif)
+- TMDB movie api 사용
+  <https://www.themoviedb.org/?language=ko>
+
+  ![플레이 화면](/screenshot/screen.gif)
+  ![자격증](/screenshot/certificate.jpg)
