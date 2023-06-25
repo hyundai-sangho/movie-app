@@ -22,15 +22,18 @@ pages 폴더에 페이지 별로 svelte 파일을 만들고
 
 <pre>
 1. 소스 다운로드 또는 git clone으로 가져오기
-2. vscode에서 다운받은 폴더를 연 후 터미널을 켜고 npm install 또는 npm i 명령어 실행(node_modules 설치됨)
-3. 터미널 창에서 npm run dev 실행 후에 아래와 같은 글자가 뜬다면
+2. https://www.themoviedb.org 사이트로 이동 후 회원 가입을 하고 TMDB에서 제공해주는 영화 API 키를 복사
+3. vscode에서 다운받은 폴더를 열고 .env.example 파일을 .env로 이름을 변경한 뒤에 아래와 같은 형식으로 API_KEY의 값을 입력
+API_KEY=4a17a20b247589ceae416940a8(TMDB에서 가져온 API의 키를 붙여넣으면 됨)
+4. 터미널을 켜고 npm install 또는 npm i 명령어 실행(node_modules 설치됨)
+5. 터미널 창에서 npm run dev 실행 후에 아래와 같은 글자가 뜬다면
 
   Your application is ready~! 🚀
 
   - Local:      http://localhost:8080
   - Network:    Add `--host` to expose
 
-4. 크롬 브라우저 켜고 http://localhost:8080 실행
+6. 크롬 브라우저 켜고 http://localhost:8080 실행
 (간혹 다른 프로그램에서 8080 포트를 사용중이라면 포트 번호가
 다른 번호로 나올 수 있으니 포트 번호만 유의해서 실행 요함.)
 </pre>
