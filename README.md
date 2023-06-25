@@ -17,3 +17,20 @@ pages 폴더에 페이지 별로 svelte 파일을 만들고
 
   ![플레이 화면](/screenshot/screen.gif)
   ![자격증](/screenshot/certificate.jpg)
+
+## 소스 사용법
+
+<pre>
+1. 소스 다운로드 또는 git clone으로 가져오기
+2. vscode에서 다운받은 폴더를 연 후 터미널을 켜고 npm install 또는 npm i 명령어 실행(node_modules 설치됨)
+3. 터미널 창에서 npm run dev 실행 후에 아래와 같은 글자가 뜬다면
+
+  Your application is ready~! 🚀
+
+  - Local:      http://localhost:8080
+  - Network:    Add `--host` to expose
+
+4. 크롬 브라우저 켜고 http://localhost:8080 실행
+(간혹 다른 프로그램에서 8080 포트를 사용중이라면 포트 번호가
+다른 번호로 나올 수 있으니 포트 번호만 유의해서 실행 요함.)
+</pre>
